@@ -22,12 +22,6 @@ public class Dog extends Animal {
         System.out.println("Dog : "+ this.getName() + " is eating!");
     }
 
-    @Override
-    public void move() {
-        System.out.println("Dog : "+ this.getName() + " is moving!");
-    }
-    
-
     public int getEyes() {
         return this.eyes;
     }
