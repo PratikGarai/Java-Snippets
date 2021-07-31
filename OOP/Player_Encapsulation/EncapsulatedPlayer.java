@@ -12,7 +12,7 @@ public class EncapsulatedPlayer {
 
         if(this.health>0 && this.health<=200)
             this.health = health;
-            
+
         this.weapon = weapon;
     }
 
@@ -20,6 +20,7 @@ public class EncapsulatedPlayer {
         this.health -= damage;
         if(this.health<=0) {
             System.out.println("Player Fainted");
+            this.health = 0;
         }
     }
 
